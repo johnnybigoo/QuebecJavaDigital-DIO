@@ -39,6 +39,6 @@ public class Carro {
   }
 
   double totalValorTanque(double valorCombustivel) {
-    return capacidadeTanque + valorCombustivel;
+    return capacidadeTanque * valorCombustivel;
   }
 }
